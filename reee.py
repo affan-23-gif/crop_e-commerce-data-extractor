@@ -8,7 +8,7 @@ def load_config():
     
     config = {}
    
-    config['llm_api_key'] = "hf_khqbnxfosAnjemNeqNbqLZAYSaWfHcxu"  #  Replace with a real free API key
+    config['llm_api_key'] = "API Key"  #  Replace with a real free API key
     if not config['llm_api_key']:
         st.error("LLM API key not found.  Please add a valid LLM API key to the code.")
         st.stop()
